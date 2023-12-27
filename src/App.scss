@@ -1,0 +1,21 @@
+.back-top{
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0px 5px 12px 1px #3c3c3c52;
+    border-radius: 50%;
+    transition: 0.3s;
+    padding: 12px;
+    height: 68px;
+    bottom: 50px;
+    width: 68px;
+    right: 30px;
+    ion-icon{
+        width: 100%;
+        height: 100%;
+        color: #EF7C00;
+    }
+    &:hover{
+        box-shadow: 0px -5px 12px 1px #3c3c3c52;
+        background-color: #fff5ea;
+    }
+}
